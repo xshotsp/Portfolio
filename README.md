@@ -1,30 +1,70 @@
-# React + TypeScript + Vite
+# Portfolio - Juan Gallego
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](https://your-portfolio-url.com/preview.png)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+¡Hola! Soy Juan Gallego, un apasionado desarrollador web con experiencia en tecnologías como React, Node.js y MongoDB. Este es mi portfolio personal, donde muestro algunos de mis proyectos más destacados y comparto un poco sobre mí y mis habilidades.
 
-## Expanding the ESLint configuration
+## Table of Contents / Índice
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Descripción](#descripción)
+- [Proyectos Destacados](#proyectos-destacados)
+- [Habilidades](#habilidades)
+- [Experiencia Laboral](#experiencia-laboral)
+- [Contacto](#contacto)
+- [Licencia](#licencia)
 
-- Configure the top-level `parserOptions` property like this:
+## Proyectos Destacados
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Proyecto 1
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Descripción:** Una aplicación web para la gestión de tareas.
+- **Tecnologías utilizadas:** React, Node.js, MongoDB.
+- **Enlace:** [Proyecto 1](https://proyecto1.com)
+
+![Proyecto 1 Preview](https://proyecto1.com/preview.png)
+
+### Proyecto 2
+
+- **Descripción:** Una aplicación de comercio electrónico para la venta de productos artesanales.
+- **Tecnologías utilizadas:** React, Firebase, Stripe API.
+- **Enlace:** [Proyecto 2](https://proyecto2.com)
+
+![Proyecto 2 Preview](https://proyecto2.com/preview.png)
+
+### Más Proyectos
+
+Puedes encontrar más de mis proyectos en mi [sitio web](https://juan-gallego.com/projects).
+
+## Habilidades
+
+- HTML, CSS, JavaScript
+- React.js, Redux
+- Node.js, Express
+- MongoDB, MySQL
+- Git, GitHub
+
+## Experiencia Laboral
+
+### Desarrollador Web - Empresa XYZ (2019-2022)
+
+- Desarrollo y mantenimiento de aplicaciones web utilizando tecnologías como React y Node.js.
+- Colaboración con equipos multidisciplinarios para la entrega de proyectos.
+
+### Prácticas Profesionales - Empresa ABC (2018)
+
+- Desarrollo de funcionalidades front-end y back-end para una aplicación de gestión de inventario.
+- Implementación de pruebas unitarias y de integración.
+
+## Contacto
+
+¡No dudes en contactarme si tienes alguna pregunta, sugerencia o si simplemente quieres saludar!
+
+- **Correo Electrónico:** juan.gallego@example.com
+- **Sitio Web:** [juan-gallego.com](https://juan-gallego.com)
+- **LinkedIn:** [linkedin.com/in/juan-gallego](https://linkedin.com/in/juan-gallego)
+
+## Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE).
