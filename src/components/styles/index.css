@@ -1,0 +1,32 @@
+/* src/styles/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your preferred font */
+  background-color: #E2E8F0; /* Main background */
+}
+
+/* Custom classes */
+.btn-primary {
+  background-color: #FF6B6B;
+  color: #FFF;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-secondary {
+  background-color: #48BB78;
+  color: #FFF;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Styles for dark mode */
+.dark-mode {
+  background-color: #1A202C;
+  color: #E2E8F0; /* Text color in dark mode */
+}
