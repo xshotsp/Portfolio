@@ -1,0 +1,73 @@
+/* Estilos para el header */
+.header {
+    background: linear-gradient(135deg, #6e7dff, #88e1ff);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 700vh;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #222;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    scroll-behavior: smooth;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ff4500;
+}
+
+/* Estilos para las secciones */
+/* Estilos adicionales para las secciones */
+section {
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 90vh;
+    display: flex; /* Añade display flex */
+    flex-direction: column; /* Establece la dirección de la columna */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+
+/* Estilos para los enlaces dentro de las secciones */
+section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales para el contenido de la sección "Contact" */
+.contact {
+    align-items: center;
+    text-align: center;
+}

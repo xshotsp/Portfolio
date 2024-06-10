@@ -1,0 +1,14 @@
+/* Carousel.module.css */
+
+.carousel {
+    margin-top: 100px;
+    width: 150px; /* Define el ancho deseado del carrusel */
+    margin: 0 auto; /* Centra horizontalmente el carrusel */
+  }
+  /* Carousel.module.css */
+
+.carousel img {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+  

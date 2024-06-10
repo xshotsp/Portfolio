@@ -1,0 +1,58 @@
+/* Projects.module.css */
+
+/* Estilo para la sección Projects */
+.projects-section {
+    background-color: #6e7dff; /* Color de fondo similar al del header */
+    padding: 50px 20px; /* Espaciado interno similar al del header */
+    border-radius: 8px; /* Borde redondeado similar al del header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra similar a la del header */
+}
+
+/* Estilos para los proyectos dentro de la sección */
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #6e7dff; /* Color del borde similar al del header */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra similar a la del header */
+}
+
+.project h3 {
+    color: #6e7dff; /* Color del texto similar al del header */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #444; /* Color del texto del párrafo similar al del header */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project ul {
+    margin: 10px 0;
+}
+
+.project li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.project a {
+    color: #ffde59; /* Color del enlace similar al del header */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}

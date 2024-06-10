@@ -1,0 +1,36 @@
+/* src/pages/Landing.module.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.landing-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.landing-link:hover {
+    color: #ff4500;
+    text-decoration: none;
+}

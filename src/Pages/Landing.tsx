@@ -2,24 +2,24 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './Landing.module.css';
 
 const LandingPage: React.FC = () => {
     return (
-        <div className="landing-page">
-            <header>
-                <h1>Welcome to My Portfolio</h1>
-                <p>A showcase of my projects and skills</p>
-            </header>
-            <nav>
-                <ul>
-                    <li><Link to="/projects">View Projects</Link></li>
-                    <li><Link to="/contact">Contact Me</Link></li>
-                </ul>
-            </nav>
-            <footer>
-                <p>&copy; 2024 Your Name</p>
-            </footer>
-        </div>
+        <Link to="/home" className={styles['landing-link']}>
+            <div className={styles['landing-page']}>
+                <header className={styles.header}>
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>A showcase of my projects and skills</p>
+                </header>
+
+                {/* Contenido principal */}
+
+                <footer className={styles.footer}>
+                    <p>&copy; 2024 Juan Gallego</p>
+                </footer>
+            </div>
+        </Link>
     );
 };
 

@@ -1,0 +1,44 @@
+/* Header.module.css */
+
+/* Estilos para el header */
+.header {
+    background: linear-gradient(135deg, #6e7dff, #88e1ff);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 90vh; /* Ocupa el 100% de la altura del viewport */
+    display: flex; /* Permite el centrado vertical */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.headerContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #ffde59;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

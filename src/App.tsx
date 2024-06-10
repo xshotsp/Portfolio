@@ -1,22 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import { RouteProps } from 'react-router-dom';
+import LandingPage from './Pages/Landing';
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Header />
-      <Switch>
-        <Route<RouteProps> exact path="/" component={Home} />
-        <Route<RouteProps> exact path="/projects" component={Projects} />
-        <Route<RouteProps> exact path="/contact" component={Contact} />
-      </Switch>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </Router>
   );
 };
